@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Readex+Pro:wght@160..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div >
+      <div style="margin-top: 0px">
+        <!-- city and date -->
+        <div>
+          <!-- city -->
+          <h1 id="cityName">حمص</h1>
+          <h6 id="date"></h6>
+         
+        </div>
+        <hr />
+        <!--prayer timings-->
+        <div style="height: 300px; margin-top: 80px; display: flex;justify-content: space-around;align-items: center;">
+        <div class="card">
+            <div class="header">
+                <h1>الفجر</h1>
+            </div>
+            <div class="body">
+                <h1 class="time" id="fajrTime"></h1>
+            </div>
+            <div></div>
+        </div>
+             <div class="card">
+            <div class="header">
+                <h1>الفجر</h1>
+            </div>
+            <div class="body">
+                <h1 class="time" id="sunriseTime"></h1>
+            </div>
+            <div></div>
+        </div>
+             <div class="card">
+            <div class="header">
+                <h1>الشروق</h1>
+            </div>
+            <div class="body">
+                <h1 class="time" id="dhurhTime"></h1>
+            </div>
+            <div></div>
+        </div>
+             <div class="card">
+            <div class="header">
+                <h1>العصر</h1>
+            </div>
+            <div class="body">
+                <h1 class="time" id="asrTime"></h1>
+            </div>
+            <div></div>
+        </div>
+             <div class="card">
+            <div class="header">
+                <h1>المغرب</h1>
+            </div>
+            <div class="body">
+                <h1 class="time" id="sunsetTime"></h1>
+            </div>
+            <div></div>
+        </div>
+             <div class="card">
+            <div class="header">
+                <h1>العشاء</h1>
+            </div>
+            <div class="body">
+                <h1 class="time" id="ishaTime"></h1>
+            </div>
+            <div></div>
+        </div>   
+        </div>
+        <!--prayer timings-->
+        <!--change city select-->
+       <div class="select">
+         <select name="" id="cityselect"  >
+                 
+        </select>
+       </div>
+        <!--change city select-->
+      </div>
+    </div>
+  </body>
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</html>
