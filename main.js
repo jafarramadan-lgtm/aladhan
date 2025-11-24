@@ -43,7 +43,7 @@ function gettimesofcity(c) {
   };
 
   axios
-    .get("http://api.aladhan.com/v1/timingsByCity", {
+    .get("https://api.aladhan.com/v1/timingsByCity", {
       params: params,
     })
     .then(function (response) {
@@ -67,3 +67,4 @@ gettimesofcity("HI");
 function filltimeforprayer(id, time) {
   document.getElementById(id).innerHTML = time;
 }
+
