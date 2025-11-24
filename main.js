@@ -63,10 +63,11 @@ function gettimesofcity(c) {
       console.log(error);
     });
 }
-gettimesofcity("HI");
+gettimesofcity("SY-HI");
 function filltimeforprayer(id, time) {
   document.getElementById(id).innerHTML = time;
 }
+
 
 
 
