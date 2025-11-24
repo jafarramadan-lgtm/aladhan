@@ -1,18 +1,18 @@
 let cities = [
-  { arabicname: "حمص", name: "HI" },
-  { arabicname: "اللاذقية", name: "LA" },
-  { arabicname: "طرطوس", name: "TA" },
-  { arabicname: "الحسكة", name: "HA" },
-  { arabicname: "القنيطرة", name: "QU" },
-  { arabicname: "الرقة", name: "RA" },
-  { arabicname: "السويداء", name: "SU" },
-  { arabicname: "دير الزور", name: "DY" },
-  { arabicname: "حلب", name: "HL" },
-  { arabicname: "حماة", name: "HM" },
-  { arabicname: "ادلب", name: "ID" },
-  { arabicname: "ريف دمشق", name: "Rd" },
-  { arabicname: "درعا", name: "DR" },
-  { arabicname: "دمشق", name: "DI" },
+  { arabicname: "حمص", name: "SY-HI" },
+  { arabicname: "اللاذقية", name: "SY-LA" },
+  { arabicname: "طرطوس", name: "SY-TA" },
+  { arabicname: "الحسكة", name: "SY-HA" },
+  { arabicname: "القنيطرة", name: "SY-QU" },
+  { arabicname: "الرقة", name: "SY-RA" },
+  { arabicname: "السويداء", name: "SY-SU" },
+  { arabicname: "دير الزور", name: "SY-DY" },
+  { arabicname: "حلب", name: "SY-HL" },
+  { arabicname: "حماة", name: "SY-HM" },
+  { arabicname: "ادلب", name: "SY-ID" },
+  { arabicname: "ريف دمشق", name: "SY-Rd" },
+  { arabicname: "درعا", name: "SY-DR" },
+  { arabicname: "دمشق", name: "SY-DI" },
 
 
 
@@ -67,4 +67,5 @@ gettimesofcity("HI");
 function filltimeforprayer(id, time) {
   document.getElementById(id).innerHTML = time;
 }
+
 
